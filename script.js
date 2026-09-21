@@ -1,5 +1,5 @@
 const defaultProducts = [
-  { name: "3D Drucker Team", category: "alltag", price: "Preis auf Anfrage", description: "Unser erstes Produkt aus der REALISY-D-Hauser-Series-Galerie. Weitere Varianten, Farben und Preise folgen mit den nächsten Bildern.", image: "assets/3-d-drucker-team.jpeg" }
+  { name: "3D Drucker Team", category: "alltag", price: "Preis auf Anfrage", description: "Unser erstes Produkt aus der REALISY-D-Hauser-Series-Galerie. Weitere Varianten, Farben und Preise folgen mit den nächsten Bildern.", image: "3-d-drucker-team.jpeg" }
 ];
 
 const categoryLabels = { deko: "DEKO", alltag: "FÜR DEN ALLTAG", geschenk: "GESCHENKIDEE" };
