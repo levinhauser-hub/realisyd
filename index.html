@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="3D Druck Galerie – handgemachte Ideen, bereit zum Entdecken." />
+    <title>REALISY D | Hauser Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#start" aria-label="Zur Startseite"><img src="assets/realisy-d-logo.jpeg" alt="REALISY D – Hauser Series" /><span>REALISY<span class="brand-d">D</span></span></a>
+      <nav aria-label="Hauptnavigation">
+        <a href="#produkte">Galerie</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="header-button" href="#kontakt">Anfragen</a>
+    </header>
+
+    <main id="start">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">3D-DRUCK · IDEEN ZUM ANFASSEN</p>
+          <h1>Aus einer Idee wird<br /><em>etwas Echtes.</em></h1>
+          <p class="intro">Entdecke unsere individuell gefertigten 3D-Drucke. Praktisch, persönlich und mit viel Freude gemacht.</p>
+          <a class="button" href="#produkte">Unsere Drucke ansehen <span>↓</span></a>
+        </div>
+        <div class="hero-art">
+          <img src="assets/realisy-d-logo.jpeg" alt="REALISY D – Make it real" />
+        </div>
+      </section>
+
+      <section id="produkte" class="products section">
+        <div class="section-heading">
+          <div><p class="eyebrow">UNSERE GALERIE</p><h2>Unsere 3D-Drucke</h2></div>
+          <p class="section-note">Jedes Stück entsteht Schicht für Schicht in unserer Werkstatt.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Produkte filtern">
+          <button class="filter active" data-filter="alle">Alle</button>
+          <button class="filter" data-filter="deko">Deko</button>
+          <button class="filter" data-filter="alltag">Alltag</button>
+          <button class="filter" data-filter="geschenk">Geschenke</button>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+        <p id="empty-state" class="empty-state" hidden>Noch keine Produkte in dieser Kategorie.</p>
+      </section>
+
+      <section id="ueber-uns" class="story section">
+        <div class="story-number">01</div>
+        <div><p class="eyebrow">KLEINE WERKSTATT, GROSSE IDEEN</p><h2>Für Dinge, die<br />Freude machen.</h2></div>
+        <p>Wir lieben es, aus digitalen Ideen echte Objekte zu machen. Du hast einen besonderen Wunsch? Schreib uns – viele Farben, Größen und kleine Anpassungen sind möglich.</p>
+      </section>
+
+      <section class="highlights">
+        <div class="highlights-title"><p class="eyebrow">WARUM REALISY D?</p><h2>Unsere Highlights.</h2></div>
+        <article><span>01</span><h3>Individuell</h3><p>Dein Wunsch, dein Name, deine Idee. Wir machen daraus ein besonderes Produkt.</p></article>
+        <article><span>02</span><h3>Viele Farben</h3><p>Wähle aus starken Farben und finde den Look, der perfekt zu dir passt.</p></article>
+        <article><span>03</span><h3>Mit Sorgfalt gedruckt</h3><p>Schicht für Schicht gefertigt – für Dinge, die im Alltag Freude machen.</p></article>
+      </section>
+
+      <section id="kontakt" class="contact">
+        <p class="eyebrow">INTERESSE ODER EINE IDEE?</p>
+        <h2>Lass uns etwas<br /><em>Schönes drucken.</em></h2>
+        <a class="button light" href="mailto:deine-email@beispiel.de">E-Mail schreiben <span>↗</span></a>
+        <p class="contact-hint">Passe später die E-Mail-Adresse im Quelltext an.</p>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> REALISY D · HAUSER SERIES</span><span>THINK IT. BUILD IT. MAKE IT REAL.</span></footer>
+    <dialog id="product-dialog"><button class="close-dialog" aria-label="Fenster schließen">×</button><img id="dialog-image" alt="" /><div><p id="dialog-category" class="eyebrow"></p><h2 id="dialog-name"></h2><p id="dialog-description"></p><strong id="dialog-price"></strong></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
