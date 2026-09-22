@@ -1,7 +1,11 @@
 const defaultProducts = [
   { name: "Flexi-Drache Regenbogen", category: "geschenk", price: "10 €", description: "Großer beweglicher Drache in vielen Farben. Ein echter Blickfang für Drachen-Fans.", image: "drache-regenbogen.png" },
   { name: "Flexi-Drache Rosa", category: "geschenk", price: "7,50 €", description: "Beweglicher, detailreicher Drache in Rosa – perfekt zum Spielen, Sammeln oder Verschenken.", image: "drache-rosa.png" },
-  { name: "Happy-Birthday-Schild", category: "deko", price: "5 €", description: "Persönliche Geburtstags-Deko aus dem 3D-Drucker. Farben und Namen können angepasst werden.", image: "happy-birthday-schild.png" }
+  { name: "Happy-Birthday-Schild", category: "deko", price: "5 €", description: "Persönliche Geburtstags-Deko aus dem 3D-Drucker. Farben und Namen können angepasst werden.", image: "happy-birthday-schild.png" },
+  { name: "Oranger Fidget", category: "alltag", price: "5 €", description: "Beweglicher Fidget in Sternform – ideal zum Spielen und Beschäftigen.", image: "oranger-fidget.png" },
+  { name: "Spiderman-Fidget", category: "alltag", price: "3 €", description: "Fidget in rot-blauem Spinnennetz-Design.", image: "spiderman-fidget.png" },
+  { name: "Gaming-Hülle", category: "alltag", price: "5 €", description: "Praktische 3D-gedruckte Hülle für dein Gaming-Gerät.", image: "gaming-huelle.png" },
+  { name: "Figuren", category: "geschenk", price: "7,50 €", description: "Coole bewegliche Figuren – viele Varianten sind möglich.", image: "figur-blau.png" }
 ];
 
 const categoryLabels = { deko: "DEKO", alltag: "FÜR DEN ALLTAG", geschenk: "GESCHENKIDEE" };
