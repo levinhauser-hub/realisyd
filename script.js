@@ -1,5 +1,7 @@
 const defaultProducts = [
-  { name: "3D Drucker Team", category: "alltag", price: "Preis auf Anfrage", description: "Unser erstes Produkt aus der REALISY-D-Hauser-Series-Galerie. Weitere Varianten, Farben und Preise folgen mit den nächsten Bildern.", image: "3-d-drucker-team.jpeg" }
+  { name: "Flexi-Drache Regenbogen", category: "geschenk", price: "10 €", description: "Großer beweglicher Drache in vielen Farben. Ein echter Blickfang für Drachen-Fans.", image: "drache-regenbogen.png" },
+  { name: "Flexi-Drache Rosa", category: "geschenk", price: "7,50 €", description: "Beweglicher, detailreicher Drache in Rosa – perfekt zum Spielen, Sammeln oder Verschenken.", image: "drache-rosa.png" },
+  { name: "Happy-Birthday-Schild", category: "deko", price: "5 €", description: "Persönliche Geburtstags-Deko aus dem 3D-Drucker. Farben und Namen können angepasst werden.", image: "happy-birthday-schild.png" }
 ];
 
 const categoryLabels = { deko: "DEKO", alltag: "FÜR DEN ALLTAG", geschenk: "GESCHENKIDEE" };
